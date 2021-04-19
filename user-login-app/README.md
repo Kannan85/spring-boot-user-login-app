@@ -1,6 +1,6 @@
 # User Login Application 
 
-A simple User login application is developed using Java 11, Spring boot in specific Spring Web, Spring Security, Thymeleaf and Restful Web Services.
+A simple User login web application is developed using Java 11, Spring boot in specific Spring Web, Spring Security, Thymeleaf and Restful Web Services.
 
 ## Prerequisites
 

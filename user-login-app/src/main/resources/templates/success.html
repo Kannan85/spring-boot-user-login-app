@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>User Login</title>
+  <link th:href="@{/public/style.css}" rel="stylesheet" />
+</head>
+<body>
+<div id="summary" class="center">
+  <h2>BITS Pilani Work Integrated Learning Program</h2>
+  <h3>Cloud Computing(SE ZG527) Assignment - Sumana Saha</h3>
+</div>
+</br>
+  <div id="container">
+    <p class="success">You have logged in successfully!</p>
+    <form th:action="@{/signIn.html}">
+      <input id="submit" type="submit" value="Back" />
+    </form>
+  </div>
+</body>
+<footer>
+  <p id="copyright">© Copyright 2021-2022 by Sumana Saha. All Rights Reserved.</p>
+</footer>
+</html>

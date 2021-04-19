@@ -1,0 +1,84 @@
+#container {
+    padding-top:45px;
+    width:500px;
+    height: 40%;
+    margin: 0 auto;
+    font-size:1.5rem;
+}
+#copyright {
+    padding-top:40px;
+    width:500px;
+    margin: 0 auto;
+    font-size:1rem;
+    text-align: center;
+}
+#summary{
+    padding-top:10px;
+    width: 1000px;
+    margin: 0 auto;
+    font-size:1.5rem;
+    display: block;
+}
+div {
+    background-color: lightsteelblue
+}
+h{
+    text-align: center
+}
+body {
+    background-color: honeydew
+}
+input {
+    width: 100%;
+    display:block;
+    padding: 5px;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+}
+label {
+    margin-top:10px;
+    display:block;
+}
+#submit, #submit:focus {
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    background-color: #2084ba;
+    border: none;
+}
+#cancel, #cancel:focus {
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    background-color: #008080;
+    border: none;
+}
+.error {
+    color: white;
+    background-color: indianred;
+    opacity: 0.7;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.success {
+    color: white;
+    background-color: green;
+    opacity: 0.7;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.center {
+  margin: 0 auto;
+  width: 70%;
+  border: 3px solid #73AD21;
+  padding: 5px;
+  text-align: center;
+}
